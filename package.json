@@ -1,0 +1,31 @@
+{
+  "name": "koa_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "serve": "./node_modules/.bin/nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "cheerio": "^1.0.0-rc.3",
+    "ejs": "^2.6.2",
+    "koa": "^2.7.0",
+    "koa-art-template": "^1.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "mongodb": "^3.3.1"
+  }
+}
